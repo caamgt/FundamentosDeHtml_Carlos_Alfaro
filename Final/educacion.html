@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<meta name="author" content="Carlos Alfaro">
+	<meta name="keywords" content="cv, curriculum, html, css">
+	<meta name="description" content="Curriculum vitae">
+	<title>Evaluaci&oacute;n Final</title>
+</head>
+<body>
+	<!-- Encabezado -->
+	<header>
+		<img src="img/Logo.svg" alt="Logo-caam" title="Logo" width="10%;">
+	</header>
+	<br>
+	
+	<!-- Datos personales -->
+	<section title="Mi curriculum vitae">
+		<h1>Curriculum Vitae</h1>
+		<article>
+			<p title="Información personal">
+				<h2>Carlos Alfaro</h2>
+				<h3>Guatemala, 31 de mayo de 1985</h3>
+			</p>
+		</article>
+	</section>
+	
+	<!-- Menu -->
+	<navbar>
+		<a href="index.html">Inicio</a>
+		|
+		<a href="educacion.html">Educaci&oacute;n</a>
+		|
+		<a href="experiencia.html">Experiencia</a>
+	</navbar>	
+	<br>
+
+	<section>
+		<article title="Eduacación">
+			<h2>Educaci&oacute;n</h2>
+			<p>
+				<table border="1" cellspacing="0" cellpadding="10">
+					<thead>
+						<tr>
+							<th>A&ntilde;o</th>
+							<th>Instituci&oacute;n</th>
+							<th>Lugar</th>
+							<th>¿Culmin&oacute;?</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>2015</td>
+							<td>New Horizons</td>
+							<td>Guatemala</td>
+							<td>Si</td>
+						</tr>
+						<tr>
+							<td>2014</td>
+							<td>New Horizons</td>
+							<td>Guatemala</td>
+							<td>Si</td>
+						</tr>
+						<tr>
+							<td>2009</td>
+							<td>INTECAP</td>
+							<td>Guatemala</td>
+							<td>Si</td>
+						</tr>
+					</tbody>
+				</table>
+			</p>
+		</article>
+		<br>
+
+		<article>
+			<h2>Agregar Estudios</h2>
+			<form action="" title="Formulario de registro">
+				<p>
+					<label for="anio"><Strong>A&ntilde;o:</Strong></label>
+					<select name="anio">
+						<option value="1">2015</option>
+						<option value="1">2016</option>
+						<option value="1">2017</option>
+						<option value="1">2018</option>
+					</select>
+				</p>
+				<p>
+					<label form="insti"><strong>Instituci&oacute;n:</strong></label>
+					<input type="text" name="insti" required>
+				</p>
+				<p>
+					<label for="lugar"><strong>Lugar:</strong></label>
+					<input type="textarea" name="lugar">
+				</p>
+				<p>
+					<label for="culmino"><strong>¿Culminó?</strong></label>
+					<input type="radio" name="culmino"> Si
+					<input type="radio" name="culmino"> No
+				</p>
+				<p>
+					<input type="submit" value="Enviar">
+				</p>
+			</form>
+		</article>
+	</section>
+	<br>
+	<footer title="Pie de pagina">
+		@Derechos Reservados
+		<ul>
+			<li><strong>Email:</strong> <a href="mailto:calfaro@diginetgt.com">calfaro@diginetgt.com</a></li>
+			<li><strong>Tel&eacute;fono:</strong> <a href="tel:+502 31289098">+502 3128-9098</a></li>
+			<li><strong>Direcci&oacute;n:</strong> Villas granada T1-102, zona 4 de Santa Catarina, Guatemala</li>
+		</ul>
+	</footer>
+</body>
+</html>
